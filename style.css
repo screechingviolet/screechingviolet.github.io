@@ -171,7 +171,7 @@ a:hover {
 
 
 .tree {
-	background-image: url("tree3.PNG");
+	background-image: url("tree3.png");
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -220,7 +220,7 @@ a:hover {
 	/*idk man*/
 	.tree {
 		/*background-image: none;*/
-		background-image: url("tree3.PNG");
+		background-image: url("tree3.png");
 		height: 100%;
 		margin: 0;
 		padding: 0;
