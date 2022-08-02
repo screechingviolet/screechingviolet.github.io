@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+
+
+
+.mainpage {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	/*background-color: #fef5e3;*/
+	background-color: white;
+}
+
+.artpage {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.soil {
+	background-color: rgb(71,46,25);
+}
+
+.why {
+	margin: 0;
+	padding: 27% 30% 10% 10%;
+}
+
+@media screen and (max-width:1230px) {
+	.why {
+		padding: 38% 25% 10% 10%;
+	}
+}
+
+@media screen and (max-width:1000px) {
+	.why {
+		padding: 45% 20% 10% 10%;
+		width: 40%;
+	}
+}
+
+@media screen and (max-width:800px) {
+	.why {
+		padding: 50% 15% 10% 10%;
+		width: 30%;
+	}
+
+	h2 {
+		line-height: 1.1;
+		font-size: 20px;
+	}
+}
+
+
+h1 {
+	margin: 0;
+	padding: 0 0 5px 0;
+
+	
+	color: #B5838D;
+	font-family: 'Special Elite', monospace;
+
+
+}
+
+.what {
+	padding: 10% 0 0 10%;
+	margin: 0;
+}
+
+
+.artworkorganizer {
+	padding: 2% 10% 0 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.artwork {
+	
+	width: 350px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	position: relative;
+}
+
+.artwork:hover .overlay {
+	opacity: 0.85;
+}
+
+.artworkimage {
+	margin: 0;
+	padding: 0;
+	display: block;
+  	width: 100%;
+  	height: auto;
+
+}
+
+
+.justsoquirky {
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 0;
+	position: relative;
+
+}
+
+.justsoquirky:hover .overlay {
+	opacity: 0.85;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFFFFF;
+}
+
+.text {
+  color: #6D6875;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Special Elite', monospace;
+
+}
+
+/*1230*/
+h2 {
+	margin: 0;
+	padding: 0 0 4px 0;
+	color: #6D6875;
+	/*font-family: serif;*/
+ font-family: 'Square Peg', cursive;
+
+font-size: 37px;
+
+
+	font-weight: 100;
+
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	color: #E5989B;
+	font-family: 'Special Elite', monospace;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #B5838D;
+	transition: color 0.5s;
+	text-decoration: none;
+}
+
+
+.tree {
+	background-image: url("tree3.PNG");
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	/*float: right;*/
+	background-position: right;
+	background-repeat: no-repeat;
+  	background-size: contain;
+
+
+
+}
+
+.project {
+	
+	width: 300px;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	position: relative;
+	border: 3px dashed #B5838D;
+}
+
+
+.demo {
+	margin: 0;
+	padding: 1px;
+	display: block;
+  	width: 100%;
+  	height: auto;
+
+}
+
+.explanation {
+	margin: 0;
+	padding: 10px 0 0 0;
+	color: #6D6875;
+	font-family: 'Special Elite', monospace;
+	text-decoration: none;
+}
+
+.projectname {
+	color: #E5989B;
+
+}
+
+@media screen and (max-width:776px) {
+	/*idk man*/
+	.tree {
+		/*background-image: none;*/
+		background-image: url("tree3.PNG");
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		/*float: right;*/
+		background-position: bottom;
+		background-repeat: no-repeat;
+  		background-size: contain;
+
+
+	}
+
+	.why {
+		margin: auto;
+		width: 400px;
+		padding: 5%;
+
+	}
+}
+
