@@ -78,12 +78,28 @@ h1 {
 	justify-content: space-between;
 }
 
+.experienceorganizer {
+	padding: 2% 10% 0 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 .artwork {
 	
 	width: 350px;
 	margin: 0 0 10px 0;
 	padding: 0;
 	position: relative;
+}
+
+.experience {
+	
+		width: 300px;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	position: relative;
+	border: 3px solid #B5838D;
 }
 
 .artwork:hover .overlay {
